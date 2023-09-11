@@ -1,0 +1,25 @@
+docker
+# Flask==2.2.3
+# Flask-SQLAlchemy==3.0.3
+
+fsspec
+kubernetes
+locust
+numpy
+pandas
+pika
+psycopg2-binary
+# psycopg2
+scikit-learn
+SQLAlchemy==2.0.7
+typing
+torch
+
+clang==6.0.0.2
+fastBPE
+moses
+apex
+libclang
+submitit
+six
+sacrebleu==1.2.11

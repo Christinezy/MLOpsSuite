@@ -1,0 +1,7 @@
+2023-03-30 22:28:34,496 - [INFO] - [INFO] MLOps Ingress Test exists
+2023-03-30 22:28:34,496 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-30 22:28:34,572 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-30 22:28:34,572 - [INFO] - Completed checking cycle
+2023-03-30 22:28:37,578 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-30 22:28:37,611 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-30 22:28:37,611 - [INFO] - Completed checking cycle

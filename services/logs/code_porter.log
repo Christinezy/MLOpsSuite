@@ -1,0 +1,133 @@
+2023-04-01 02:31:48,770 - [INFO] - Created channel=1
+2023-04-01 02:31:48,781 - [INFO] - [INFO] Successfully connected to RabbitMQ. Attempt number 0
+2023-04-01 02:31:48,784 - [INFO] - No message
+2023-04-01 02:31:51,797 - [INFO] - No message
+2023-04-01 02:31:54,806 - [INFO] - No message
+2023-04-01 02:31:57,811 - [INFO] - New Message: {'project_id': 1, 'version': 3, 'filename': 'python_code.py', 'source_lang': 'python', 'target_lang': 'java'}
+2023-04-01 02:32:02,720 - [INFO] - Reloading encoder from ./transcoder/models/model_2.pth ...
+2023-04-01 02:32:03,212 - [INFO] - Reloading decoders from ./transcoder/models/model_2.pth ...
+2023-04-01 02:32:03,798 - [INFO] - Number of parameters (encoder): 142191065
+2023-04-01 02:32:03,799 - [INFO] - Number of parameters (decoders): 167393753
+2023-04-01 02:32:03,799 - [INFO] - Number of decoders: 1
+2023-04-01 02:32:08,725 - [INFO] - [INFO] Success: Code port python_code.py from python - java                                 in project 1 version 3
+2023-04-01 02:32:11,748 - [INFO] - No message
+2023-04-01 02:32:14,760 - [INFO] - No message
+2023-04-01 02:32:17,775 - [INFO] - New Message: {'project_id': 1, 'version': 3, 'filename': 'python_code.py', 'source_lang': 'python', 'target_lang': 'cpp'}
+2023-04-01 02:32:22,317 - [INFO] - Reloading encoder from ./transcoder/models/model_2.pth ...
+2023-04-01 02:32:22,674 - [INFO] - Reloading decoders from ./transcoder/models/model_2.pth ...
+2023-04-01 02:32:23,076 - [INFO] - Number of parameters (encoder): 142191065
+2023-04-01 02:32:23,076 - [INFO] - Number of parameters (decoders): 167393753
+2023-04-01 02:32:23,076 - [INFO] - Number of decoders: 1
+2023-04-01 02:32:33,537 - [INFO] - [INFO] Success: Code port python_code.py from python - cpp                                 in project 1 version 3
+2023-04-01 02:32:36,552 - [INFO] - No message
+2023-04-01 02:32:39,565 - [INFO] - No message
+2023-04-01 02:32:42,583 - [INFO] - No message
+2023-04-01 02:32:45,587 - [INFO] - No message
+2023-04-01 02:32:48,601 - [INFO] - No message
+2023-04-01 02:32:51,612 - [INFO] - No message
+2023-04-01 02:32:54,626 - [INFO] - No message
+2023-04-01 02:32:57,644 - [INFO] - No message
+2023-04-01 02:33:00,661 - [INFO] - No message
+2023-04-01 02:33:03,677 - [INFO] - No message
+2023-04-01 02:33:06,693 - [INFO] - No message
+2023-04-01 02:33:09,710 - [INFO] - No message
+2023-04-01 02:33:12,727 - [INFO] - No message
+2023-04-01 02:33:15,737 - [INFO] - No message
+2023-04-01 02:33:18,748 - [INFO] - No message
+2023-04-01 02:33:21,757 - [INFO] - No message
+2023-04-01 02:33:24,764 - [INFO] - No message
+2023-04-01 02:33:27,773 - [INFO] - No message
+2023-04-01 02:33:30,799 - [INFO] - No message
+2023-04-01 02:33:33,812 - [INFO] - No message
+2023-04-01 02:33:36,827 - [INFO] - No message
+2023-04-01 02:33:39,850 - [INFO] - No message
+2023-04-01 02:33:42,864 - [INFO] - No message
+2023-04-01 02:33:45,884 - [INFO] - No message
+2023-04-01 02:33:48,912 - [INFO] - No message
+2023-04-01 02:33:51,933 - [INFO] - No message
+2023-04-01 02:33:54,949 - [INFO] - No message
+2023-04-01 02:33:57,968 - [INFO] - New Message: {'project_id': 1, 'version': 3, 'filename': 'java_code.java', 'source_lang': 'java', 'target_lang': 'python'}
+2023-04-01 02:34:02,825 - [INFO] - Reloading encoder from ./transcoder/models/model_1.pth ...
+2023-04-01 02:34:03,221 - [INFO] - Reloading decoders from ./transcoder/models/model_1.pth ...
+2023-04-01 02:34:03,791 - [INFO] - Number of parameters (encoder): 142191065
+2023-04-01 02:34:03,792 - [INFO] - Number of parameters (decoders): 167393753
+2023-04-01 02:34:03,792 - [INFO] - Number of decoders: 1
+2023-04-01 02:34:09,302 - [INFO] - [INFO] Success: Code port java_code.java from java - python                                 in project 1 version 3
+2023-04-01 02:34:12,328 - [INFO] - No message
+2023-04-01 02:34:15,346 - [INFO] - No message
+2023-04-01 02:34:18,362 - [INFO] - New Message: {'project_id': 1, 'version': 3, 'filename': 'java_code.java', 'source_lang': 'java', 'target_lang': 'cpp'}
+2023-04-01 02:34:23,267 - [INFO] - Reloading encoder from ./transcoder/models/model_1.pth ...
+2023-04-01 02:34:23,622 - [INFO] - Reloading decoders from ./transcoder/models/model_1.pth ...
+2023-04-01 02:34:23,972 - [INFO] - Number of parameters (encoder): 142191065
+2023-04-01 02:34:23,972 - [INFO] - Number of parameters (decoders): 167393753
+2023-04-01 02:34:23,972 - [INFO] - Number of decoders: 1
+2023-04-01 02:34:28,624 - [INFO] - [INFO] Success: Code port java_code.java from java - cpp                                 in project 1 version 3
+2023-04-01 02:34:31,637 - [INFO] - No message
+2023-04-01 02:34:34,647 - [INFO] - No message
+2023-04-01 02:34:37,656 - [INFO] - No message
+2023-04-01 02:34:40,668 - [INFO] - No message
+2023-04-01 02:34:43,675 - [INFO] - No message
+2023-04-01 02:34:46,687 - [INFO] - No message
+2023-04-01 02:34:49,703 - [INFO] - No message
+2023-04-01 02:34:52,711 - [INFO] - No message
+2023-04-01 02:34:55,729 - [INFO] - No message
+2023-04-01 02:34:58,740 - [INFO] - New Message: {'project_id': 1, 'version': 3, 'filename': 'cpp_code.cpp', 'source_lang': 'cpp', 'target_lang': 'python'}
+2023-04-01 02:35:03,447 - [INFO] - Reloading encoder from ./transcoder/models/model_2.pth ...
+2023-04-01 02:35:03,807 - [INFO] - Reloading decoders from ./transcoder/models/model_2.pth ...
+2023-04-01 02:35:04,171 - [INFO] - Number of parameters (encoder): 142191065
+2023-04-01 02:35:04,171 - [INFO] - Number of parameters (decoders): 167393753
+2023-04-01 02:35:04,171 - [INFO] - Number of decoders: 1
+2023-04-01 02:35:08,818 - [INFO] - [INFO] Success: Code port cpp_code.cpp from cpp - python                                 in project 1 version 3
+2023-04-01 02:35:11,832 - [INFO] - No message
+2023-04-01 02:35:14,844 - [INFO] - New Message: {'project_id': 1, 'version': 3, 'filename': 'cpp_code.cpp', 'source_lang': 'cpp', 'target_lang': 'java'}
+2023-04-01 02:35:19,858 - [INFO] - Reloading encoder from ./transcoder/models/model_1.pth ...
+2023-04-01 02:35:20,474 - [INFO] - Reloading decoders from ./transcoder/models/model_1.pth ...
+2023-04-01 02:35:20,948 - [INFO] - Number of parameters (encoder): 142191065
+2023-04-01 02:35:20,949 - [INFO] - Number of parameters (decoders): 167393753
+2023-04-01 02:35:20,949 - [INFO] - Number of decoders: 1
+2023-04-01 02:35:26,827 - [INFO] - [INFO] Success: Code port cpp_code.cpp from cpp - java                                 in project 1 version 3
+2023-04-01 02:35:29,846 - [INFO] - No message
+2023-04-01 02:35:32,852 - [INFO] - No message
+2023-04-01 02:35:35,877 - [INFO] - No message
+2023-04-01 02:35:38,884 - [INFO] - No message
+2023-04-01 02:35:41,896 - [INFO] - No message
+2023-04-01 02:35:44,903 - [INFO] - No message
+2023-04-01 02:35:47,928 - [INFO] - No message
+2023-04-01 02:35:50,956 - [INFO] - No message
+2023-04-01 02:35:53,963 - [INFO] - No message
+2023-04-01 02:35:56,976 - [INFO] - No message
+2023-04-01 02:35:59,990 - [INFO] - No message
+2023-04-01 02:36:03,002 - [INFO] - No message
+2023-04-01 02:36:06,020 - [INFO] - No message
+2023-04-01 02:36:09,034 - [INFO] - No message
+2023-04-01 02:36:12,044 - [INFO] - No message
+2023-04-01 02:36:15,062 - [INFO] - No message
+2023-04-01 02:36:18,071 - [INFO] - No message
+2023-04-01 02:36:21,081 - [INFO] - No message
+2023-04-01 02:36:24,103 - [INFO] - No message
+2023-04-01 02:36:27,113 - [INFO] - No message
+2023-04-01 02:36:30,123 - [INFO] - No message
+2023-04-01 02:36:33,135 - [INFO] - No message
+2023-04-01 02:36:36,141 - [INFO] - No message
+2023-04-01 02:36:39,153 - [INFO] - No message
+2023-04-01 02:36:42,164 - [INFO] - No message
+2023-04-01 02:36:45,174 - [INFO] - No message
+2023-04-01 02:36:48,180 - [INFO] - No message
+2023-04-01 02:36:51,203 - [INFO] - No message
+2023-04-01 02:36:54,212 - [INFO] - No message
+2023-04-01 02:36:57,226 - [INFO] - No message
+2023-04-01 02:37:00,237 - [INFO] - No message
+2023-04-01 02:37:03,244 - [INFO] - No message
+2023-04-01 02:37:06,254 - [INFO] - No message
+2023-04-01 02:37:09,263 - [INFO] - No message
+2023-04-01 02:37:12,275 - [INFO] - No message
+2023-04-01 02:37:15,290 - [INFO] - No message
+2023-04-01 02:37:18,312 - [INFO] - No message
+2023-04-01 02:37:21,325 - [INFO] - No message
+2023-04-01 02:37:24,337 - [INFO] - No message
+2023-04-01 02:37:27,372 - [INFO] - No message
+2023-04-01 02:37:30,384 - [INFO] - No message
+2023-04-01 02:37:33,391 - [INFO] - No message
+2023-04-01 02:37:35,907 - [INFO] - Closing channel (0): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fb8214add00> params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-04-01 02:37:35,921 - [INFO] - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fb8214add00> params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-04-01 02:37:35,922 - [INFO] - [INFO] Closed RabbitMQ

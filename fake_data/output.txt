@@ -1,0 +1,4 @@
+model_cpp.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+model_cpp.cpp:4:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+model_cpp.cpp:5:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+model_cpp.cpp:28:  Could not find a newline character at the end of the file.  [whitespace/ending_newline] [5]

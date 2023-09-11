@@ -1,0 +1,10 @@
+fastapi
+gunicorn
+numpy
+pandas
+pydantic
+# tensorflow
+scikit-learn
+typing
+torch
+uvicorn

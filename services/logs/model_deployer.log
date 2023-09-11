@@ -1,0 +1,482 @@
+2023-03-24 11:55:33,660 - [INFO] - Created channel=1
+2023-03-24 11:55:33,661 - [INFO] - [INFO] Successfully connected to RabbitMQ. Attempt number 0
+2023-03-24 11:55:33,663 - [INFO] - No message
+2023-03-24 11:55:36,675 - [INFO] - No message
+2023-03-24 11:55:39,683 - [INFO] - No message
+2023-03-24 11:55:42,694 - [INFO] - New Message: {'command': 'delete', 'project_id': 1, 'version': 1}
+2023-03-24 11:55:42,771 - [INFO] - Deleted model ingress for project 1
+2023-03-24 11:55:42,812 - [INFO] - Deleted model service for project 1
+2023-03-24 11:55:42,841 - [INFO] - Deleted model hpa for project 1
+2023-03-24 11:55:42,923 - [INFO] - Deleted model deployment for project 1
+2023-03-24 11:55:42,923 - [INFO] - Success: Deleted model stack for project 1
+2023-03-24 11:55:48,936 - [INFO] - New Message: {'command': 'deploy', 'environment': 'python', 'project_id': 1, 'strategy': 'direct', 'version': 1}
+2023-03-24 11:55:49,617 - [INFO] - [INFO] Successfully connected to minikube docker
+2023-03-24 11:56:10,047 - [INFO] - [INFO] Closed minikube docker
+2023-03-24 11:56:10,199 - [INFO] - Success: Created model stack for project 1
+2023-03-24 11:56:16,218 - [INFO] - No message
+2023-03-24 11:56:19,243 - [INFO] - No message
+2023-03-24 11:56:22,259 - [INFO] - No message
+2023-03-24 11:56:25,270 - [INFO] - No message
+2023-03-24 11:56:28,294 - [INFO] - No message
+2023-03-24 11:56:31,304 - [INFO] - No message
+2023-03-24 11:56:34,316 - [INFO] - No message
+2023-03-24 11:56:37,327 - [INFO] - No message
+2023-03-24 11:56:40,337 - [INFO] - No message
+2023-03-24 11:56:43,357 - [INFO] - No message
+2023-03-24 11:56:46,368 - [INFO] - No message
+2023-03-24 11:56:49,374 - [INFO] - No message
+2023-03-24 11:56:52,378 - [INFO] - No message
+2023-03-24 11:56:55,386 - [INFO] - No message
+2023-03-24 11:56:58,394 - [INFO] - No message
+2023-03-24 11:57:01,409 - [INFO] - No message
+2023-03-24 11:57:04,416 - [INFO] - No message
+2023-03-24 11:57:07,427 - [INFO] - No message
+2023-03-24 11:57:10,435 - [INFO] - No message
+2023-03-24 11:57:13,443 - [INFO] - No message
+2023-03-24 11:57:16,461 - [INFO] - No message
+2023-03-24 11:57:19,476 - [INFO] - No message
+2023-03-24 11:57:22,483 - [INFO] - No message
+2023-03-24 11:57:25,495 - [INFO] - No message
+2023-03-24 11:57:28,504 - [INFO] - No message
+2023-03-24 11:57:31,512 - [INFO] - No message
+2023-03-24 11:57:34,524 - [INFO] - No message
+2023-03-24 11:57:37,534 - [INFO] - No message
+2023-03-24 11:57:40,555 - [INFO] - No message
+2023-03-24 11:57:43,563 - [INFO] - No message
+2023-03-24 11:57:46,577 - [INFO] - No message
+2023-03-24 11:57:49,589 - [INFO] - No message
+2023-03-24 11:57:52,600 - [INFO] - No message
+2023-03-24 11:57:55,608 - [INFO] - No message
+2023-03-24 11:57:58,623 - [INFO] - No message
+2023-03-24 11:58:01,630 - [INFO] - No message
+2023-03-24 11:58:04,639 - [INFO] - No message
+2023-03-24 11:58:07,652 - [INFO] - No message
+2023-03-24 11:58:10,663 - [INFO] - No message
+2023-03-24 11:58:13,672 - [INFO] - No message
+2023-03-24 11:58:16,681 - [INFO] - No message
+2023-03-24 11:58:19,692 - [INFO] - No message
+2023-03-24 11:58:22,704 - [INFO] - No message
+2023-03-24 11:58:25,713 - [INFO] - No message
+2023-03-24 11:58:28,725 - [INFO] - No message
+2023-03-24 11:58:31,738 - [INFO] - No message
+2023-03-24 11:58:34,750 - [INFO] - No message
+2023-03-24 11:58:37,762 - [INFO] - No message
+2023-03-24 11:58:40,772 - [INFO] - No message
+2023-03-24 11:58:43,781 - [INFO] - No message
+2023-03-24 11:58:46,790 - [INFO] - No message
+2023-03-24 11:58:49,800 - [INFO] - No message
+2023-03-24 11:58:52,806 - [INFO] - No message
+2023-03-24 11:58:55,816 - [INFO] - No message
+2023-03-24 11:58:58,825 - [INFO] - No message
+2023-03-24 11:59:01,831 - [INFO] - No message
+2023-03-24 11:59:04,843 - [INFO] - No message
+2023-03-24 11:59:07,847 - [INFO] - No message
+2023-03-24 11:59:10,852 - [INFO] - No message
+2023-03-24 11:59:13,867 - [INFO] - No message
+2023-03-24 11:59:16,877 - [INFO] - No message
+2023-03-24 11:59:19,883 - [INFO] - No message
+2023-03-24 11:59:22,887 - [INFO] - No message
+2023-03-24 11:59:25,894 - [INFO] - No message
+2023-03-24 11:59:28,906 - [INFO] - No message
+2023-03-24 11:59:31,917 - [INFO] - No message
+2023-03-24 11:59:34,927 - [INFO] - No message
+2023-03-24 11:59:37,931 - [INFO] - No message
+2023-03-24 11:59:40,940 - [INFO] - No message
+2023-03-24 11:59:43,950 - [INFO] - No message
+2023-03-24 11:59:46,961 - [INFO] - New Message: {'command': 'delete', 'project_id': 1, 'version': 2}
+2023-03-24 11:59:47,012 - [INFO] - Deleted model ingress for project 1
+2023-03-24 11:59:47,068 - [INFO] - Deleted model service for project 1
+2023-03-24 11:59:47,091 - [INFO] - Deleted model hpa for project 1
+2023-03-24 11:59:47,115 - [INFO] - Deleted model deployment for project 1
+2023-03-24 11:59:47,115 - [INFO] - Success: Deleted model stack for project 1
+2023-03-24 11:59:53,132 - [INFO] - New Message: {'command': 'deploy', 'environment': 'python', 'project_id': 1, 'strategy': 'direct', 'version': 2}
+2023-03-24 11:59:53,826 - [INFO] - [INFO] Successfully connected to minikube docker
+2023-03-24 12:00:23,980 - [INFO] - [INFO] Closed minikube docker
+2023-03-24 12:00:24,167 - [INFO] - Success: Created model stack for project 1
+2023-03-24 12:00:30,186 - [INFO] - No message
+2023-03-24 12:00:33,196 - [INFO] - No message
+2023-03-24 12:00:36,217 - [INFO] - No message
+2023-03-24 12:00:39,245 - [INFO] - No message
+2023-03-24 12:00:42,258 - [INFO] - No message
+2023-03-24 12:00:45,265 - [INFO] - No message
+2023-03-24 12:00:48,279 - [INFO] - No message
+2023-03-24 12:00:51,288 - [INFO] - No message
+2023-03-24 12:00:54,299 - [INFO] - No message
+2023-03-24 12:00:57,312 - [INFO] - No message
+2023-03-24 12:01:00,341 - [INFO] - No message
+2023-03-24 12:01:03,349 - [INFO] - No message
+2023-03-24 12:01:06,362 - [INFO] - No message
+2023-03-24 12:01:09,367 - [INFO] - No message
+2023-03-24 12:01:12,371 - [INFO] - No message
+2023-03-24 12:01:15,382 - [INFO] - No message
+2023-03-24 12:01:18,393 - [INFO] - No message
+2023-03-24 12:01:21,403 - [INFO] - No message
+2023-03-24 12:01:24,412 - [INFO] - No message
+2023-03-24 12:01:27,430 - [INFO] - No message
+2023-03-24 12:01:30,445 - [INFO] - No message
+2023-03-24 12:01:33,452 - [INFO] - No message
+2023-03-24 12:01:36,460 - [INFO] - No message
+2023-03-24 12:01:39,472 - [INFO] - No message
+2023-03-24 12:01:42,478 - [INFO] - No message
+2023-03-24 12:01:45,492 - [INFO] - No message
+2023-03-24 12:01:48,501 - [INFO] - No message
+2023-03-24 12:01:51,508 - [INFO] - No message
+2023-03-24 12:01:54,521 - [INFO] - No message
+2023-03-24 12:01:57,536 - [INFO] - No message
+2023-03-24 12:02:00,550 - [INFO] - No message
+2023-03-24 12:02:03,562 - [INFO] - No message
+2023-03-24 12:02:06,572 - [INFO] - No message
+2023-03-24 12:02:09,588 - [INFO] - No message
+2023-03-24 12:02:12,597 - [INFO] - No message
+2023-03-24 12:02:15,611 - [INFO] - No message
+2023-03-24 12:02:18,623 - [INFO] - No message
+2023-03-24 12:02:21,633 - [INFO] - No message
+2023-03-24 12:02:24,642 - [INFO] - No message
+2023-03-24 12:02:27,664 - [INFO] - No message
+2023-03-24 12:02:30,671 - [INFO] - No message
+2023-03-24 12:02:33,677 - [INFO] - No message
+2023-03-24 12:02:36,681 - [INFO] - No message
+2023-03-24 12:02:39,694 - [INFO] - No message
+2023-03-24 12:02:42,704 - [INFO] - No message
+2023-03-24 12:02:45,732 - [INFO] - No message
+2023-03-24 12:02:48,761 - [INFO] - No message
+2023-03-24 12:02:51,768 - [INFO] - No message
+2023-03-24 12:02:54,775 - [INFO] - No message
+2023-03-24 12:02:57,782 - [INFO] - No message
+2023-03-24 12:03:00,792 - [INFO] - No message
+2023-03-24 12:03:03,806 - [INFO] - No message
+2023-03-24 12:03:06,826 - [INFO] - No message
+2023-03-24 12:03:09,841 - [INFO] - No message
+2023-03-24 12:03:12,847 - [INFO] - No message
+2023-03-24 12:03:15,862 - [INFO] - No message
+2023-03-24 12:03:18,869 - [INFO] - No message
+2023-03-24 12:03:21,888 - [INFO] - No message
+2023-03-24 12:03:24,899 - [INFO] - No message
+2023-03-24 12:03:27,910 - [INFO] - No message
+2023-03-24 12:03:30,923 - [INFO] - No message
+2023-03-24 12:03:33,930 - [INFO] - No message
+2023-03-24 12:03:36,942 - [INFO] - No message
+2023-03-24 12:03:39,950 - [INFO] - No message
+2023-03-24 12:03:42,959 - [INFO] - No message
+2023-03-24 12:03:45,973 - [INFO] - No message
+2023-03-24 12:03:48,981 - [INFO] - No message
+2023-03-24 12:03:51,993 - [INFO] - No message
+2023-03-24 12:03:55,013 - [INFO] - No message
+2023-03-24 12:03:58,030 - [INFO] - New Message: {'command': 'delete', 'project_id': 1, 'version': 1}
+2023-03-24 12:03:58,093 - [INFO] - Deleted model ingress for project 1
+2023-03-24 12:03:58,138 - [INFO] - Deleted model service for project 1
+2023-03-24 12:03:58,163 - [INFO] - Deleted model hpa for project 1
+2023-03-24 12:03:58,182 - [INFO] - Deleted model deployment for project 1
+2023-03-24 12:03:58,182 - [INFO] - Success: Deleted model stack for project 1
+2023-03-24 12:04:04,197 - [INFO] - New Message: {'command': 'deploy', 'environment': 'python', 'project_id': 1, 'strategy': 'direct', 'version': 1}
+2023-03-24 12:04:04,919 - [INFO] - [INFO] Successfully connected to minikube docker
+2023-03-24 12:04:30,533 - [INFO] - [INFO] Closed minikube docker
+2023-03-24 12:04:30,688 - [INFO] - Success: Created model stack for project 1
+2023-03-24 12:04:36,712 - [INFO] - No message
+2023-03-24 12:04:39,719 - [INFO] - No message
+2023-03-24 12:04:42,728 - [INFO] - No message
+2023-03-24 12:04:45,735 - [INFO] - No message
+2023-03-24 12:04:48,750 - [INFO] - No message
+2023-03-24 12:04:51,763 - [INFO] - No message
+2023-03-24 12:04:54,780 - [INFO] - No message
+2023-03-24 12:04:57,793 - [INFO] - No message
+2023-03-24 12:05:00,806 - [INFO] - No message
+2023-03-24 12:05:03,814 - [INFO] - No message
+2023-03-24 12:05:06,825 - [INFO] - No message
+2023-03-24 12:05:09,838 - [INFO] - No message
+2023-03-24 12:05:12,847 - [INFO] - No message
+2023-03-24 12:05:15,860 - [INFO] - No message
+2023-03-24 12:05:18,868 - [INFO] - No message
+2023-03-24 12:05:21,879 - [INFO] - No message
+2023-03-24 12:05:24,891 - [INFO] - No message
+2023-03-24 12:05:27,905 - [INFO] - No message
+2023-03-24 12:05:30,911 - [INFO] - No message
+2023-03-24 12:05:33,919 - [INFO] - No message
+2023-03-24 12:05:36,928 - [INFO] - No message
+2023-03-24 12:05:39,944 - [INFO] - No message
+2023-03-24 12:05:42,950 - [INFO] - No message
+2023-03-24 12:05:45,957 - [INFO] - No message
+2023-03-24 12:05:48,961 - [INFO] - No message
+2023-03-24 12:05:51,968 - [INFO] - No message
+2023-03-24 12:05:54,975 - [INFO] - No message
+2023-03-24 12:05:57,986 - [INFO] - No message
+2023-03-24 12:06:00,999 - [INFO] - No message
+2023-03-24 12:06:04,007 - [INFO] - No message
+2023-03-24 12:06:07,020 - [INFO] - No message
+2023-03-24 12:06:10,030 - [INFO] - No message
+2023-03-24 12:06:13,044 - [INFO] - No message
+2023-03-24 12:06:16,063 - [INFO] - No message
+2023-03-24 12:06:19,069 - [INFO] - No message
+2023-03-24 12:06:22,082 - [INFO] - No message
+2023-03-24 12:06:25,091 - [INFO] - No message
+2023-03-24 12:06:28,102 - [INFO] - No message
+2023-03-24 12:06:31,121 - [INFO] - No message
+2023-03-24 12:06:34,132 - [INFO] - No message
+2023-03-24 12:06:37,147 - [INFO] - No message
+2023-03-24 12:06:40,156 - [INFO] - No message
+2023-03-24 12:06:43,171 - [INFO] - No message
+2023-03-24 12:06:46,184 - [INFO] - No message
+2023-03-24 12:06:49,196 - [INFO] - No message
+2023-03-24 12:06:52,202 - [INFO] - No message
+2023-03-24 12:06:55,211 - [INFO] - No message
+2023-03-24 12:06:58,225 - [INFO] - No message
+2023-03-24 12:07:01,233 - [INFO] - No message
+2023-03-24 12:07:04,243 - [INFO] - No message
+2023-03-24 12:07:07,259 - [INFO] - No message
+2023-03-24 12:07:10,267 - [INFO] - No message
+2023-03-24 12:07:13,277 - [INFO] - No message
+2023-03-24 12:07:16,282 - [INFO] - No message
+2023-03-24 12:07:19,299 - [INFO] - No message
+2023-03-24 12:07:22,306 - [INFO] - No message
+2023-03-24 12:07:25,317 - [INFO] - No message
+2023-03-24 12:07:28,348 - [INFO] - No message
+2023-03-24 12:07:31,358 - [INFO] - No message
+2023-03-24 12:07:34,366 - [INFO] - No message
+2023-03-24 12:07:37,388 - [INFO] - No message
+2023-03-24 12:07:40,397 - [INFO] - No message
+2023-03-24 12:07:43,403 - [INFO] - No message
+2023-03-24 12:07:46,407 - [INFO] - No message
+2023-03-24 12:07:49,413 - [INFO] - No message
+2023-03-24 12:07:52,423 - [INFO] - No message
+2023-03-24 12:07:55,432 - [INFO] - No message
+2023-03-24 12:07:58,440 - [INFO] - No message
+2023-03-24 12:08:01,454 - [INFO] - No message
+2023-03-24 12:08:04,469 - [INFO] - No message
+2023-03-24 12:08:07,482 - [INFO] - No message
+2023-03-24 12:08:10,501 - [INFO] - No message
+2023-03-24 12:08:13,513 - [INFO] - No message
+2023-03-24 12:08:16,530 - [INFO] - No message
+2023-03-24 12:08:19,542 - [INFO] - No message
+2023-03-24 12:08:22,552 - [INFO] - No message
+2023-03-24 12:08:25,584 - [INFO] - No message
+2023-03-24 12:08:28,594 - [INFO] - No message
+2023-03-24 12:08:31,608 - [INFO] - No message
+2023-03-24 12:08:34,633 - [INFO] - No message
+2023-03-24 12:08:37,642 - [INFO] - No message
+2023-03-24 12:08:40,649 - [INFO] - No message
+2023-03-24 12:08:43,658 - [INFO] - No message
+2023-03-24 12:08:46,666 - [INFO] - No message
+2023-03-24 12:08:49,676 - [INFO] - No message
+2023-03-24 12:08:52,691 - [INFO] - No message
+2023-03-24 12:08:55,716 - [INFO] - No message
+2023-03-24 12:08:58,732 - [INFO] - No message
+2023-03-24 12:09:01,746 - [INFO] - No message
+2023-03-24 12:09:04,756 - [INFO] - No message
+2023-03-24 12:09:07,769 - [INFO] - No message
+2023-03-24 12:09:10,782 - [INFO] - No message
+2023-03-24 12:09:13,793 - [INFO] - No message
+2023-03-24 12:09:16,802 - [INFO] - No message
+2023-03-24 12:09:19,812 - [INFO] - No message
+2023-03-24 12:09:22,826 - [INFO] - No message
+2023-03-24 12:09:25,833 - [INFO] - No message
+2023-03-24 12:09:28,858 - [INFO] - No message
+2023-03-24 12:09:31,882 - [INFO] - No message
+2023-03-24 12:09:34,893 - [INFO] - No message
+2023-03-24 12:09:37,899 - [INFO] - No message
+2023-03-24 12:09:40,910 - [INFO] - No message
+2023-03-24 12:09:43,919 - [INFO] - No message
+2023-03-24 12:09:46,932 - [INFO] - No message
+2023-03-24 12:09:49,940 - [INFO] - No message
+2023-03-24 12:09:52,951 - [INFO] - No message
+2023-03-24 12:09:55,962 - [INFO] - No message
+2023-03-24 12:09:58,965 - [INFO] - No message
+2023-03-24 12:10:01,978 - [INFO] - No message
+2023-03-24 12:10:04,988 - [INFO] - No message
+2023-03-24 12:10:07,995 - [INFO] - No message
+2023-03-24 12:10:11,007 - [INFO] - No message
+2023-03-24 12:10:14,013 - [INFO] - No message
+2023-03-24 12:10:17,021 - [INFO] - No message
+2023-03-24 12:10:20,030 - [INFO] - No message
+2023-03-24 12:10:23,039 - [INFO] - No message
+2023-03-24 12:10:26,049 - [INFO] - No message
+2023-03-24 12:10:29,052 - [INFO] - No message
+2023-03-24 12:10:32,057 - [INFO] - No message
+2023-03-24 12:10:35,069 - [INFO] - No message
+2023-03-24 12:10:38,077 - [INFO] - No message
+2023-03-24 12:10:41,089 - [INFO] - No message
+2023-03-24 12:10:44,098 - [INFO] - No message
+2023-03-24 12:10:47,108 - [INFO] - No message
+2023-03-24 12:10:50,117 - [INFO] - No message
+2023-03-24 12:10:53,130 - [INFO] - No message
+2023-03-24 12:10:56,139 - [INFO] - No message
+2023-03-24 12:10:59,150 - [INFO] - No message
+2023-03-24 12:11:02,158 - [INFO] - No message
+2023-03-24 12:11:05,167 - [INFO] - No message
+2023-03-24 12:11:08,179 - [INFO] - No message
+2023-03-24 12:11:11,201 - [INFO] - No message
+2023-03-24 12:11:14,207 - [INFO] - No message
+2023-03-24 12:11:17,227 - [INFO] - No message
+2023-03-24 12:11:20,237 - [INFO] - No message
+2023-03-24 12:11:23,249 - [INFO] - No message
+2023-03-24 12:11:26,261 - [INFO] - No message
+2023-03-24 12:11:29,265 - [INFO] - No message
+2023-03-24 12:11:32,276 - [INFO] - No message
+2023-03-24 12:11:35,291 - [INFO] - No message
+2023-03-24 12:11:38,303 - [INFO] - No message
+2023-03-24 12:11:41,312 - [INFO] - No message
+2023-03-24 12:11:44,324 - [INFO] - No message
+2023-03-24 12:11:47,334 - [INFO] - No message
+2023-03-24 12:11:50,345 - [INFO] - No message
+2023-03-24 12:11:53,359 - [INFO] - No message
+2023-03-24 12:11:56,369 - [INFO] - No message
+2023-03-24 12:11:59,381 - [INFO] - No message
+2023-03-24 12:12:02,388 - [INFO] - No message
+2023-03-24 12:12:05,401 - [INFO] - No message
+2023-03-24 12:12:08,415 - [INFO] - No message
+2023-03-24 12:12:11,424 - [INFO] - No message
+2023-03-24 12:12:14,436 - [INFO] - No message
+2023-03-24 12:12:17,449 - [INFO] - No message
+2023-03-24 12:12:20,460 - [INFO] - No message
+2023-03-24 12:12:23,471 - [INFO] - No message
+2023-03-24 12:12:26,480 - [INFO] - No message
+2023-03-24 12:12:29,488 - [INFO] - No message
+2023-03-24 12:12:32,507 - [INFO] - No message
+2023-03-24 12:12:35,518 - [INFO] - No message
+2023-03-24 12:12:38,530 - [INFO] - No message
+2023-03-24 12:12:41,535 - [INFO] - No message
+2023-03-24 12:12:44,552 - [INFO] - No message
+2023-03-24 12:12:47,564 - [INFO] - No message
+2023-03-24 12:12:50,573 - [INFO] - No message
+2023-03-24 12:12:53,581 - [INFO] - No message
+2023-03-24 12:12:56,591 - [INFO] - No message
+2023-03-24 12:12:59,597 - [INFO] - No message
+2023-03-24 12:13:02,612 - [INFO] - No message
+2023-03-24 12:13:05,622 - [INFO] - No message
+2023-03-24 12:13:08,639 - [INFO] - No message
+2023-03-24 12:13:11,652 - [INFO] - No message
+2023-03-24 12:13:14,681 - [INFO] - No message
+2023-03-24 12:13:17,695 - [INFO] - No message
+2023-03-24 12:13:20,705 - [INFO] - No message
+2023-03-24 12:13:23,723 - [INFO] - No message
+2023-03-24 12:13:26,741 - [INFO] - No message
+2023-03-24 12:13:29,749 - [INFO] - No message
+2023-03-24 12:13:32,760 - [INFO] - No message
+2023-03-24 12:13:35,789 - [INFO] - No message
+2023-03-24 12:13:38,804 - [INFO] - No message
+2023-03-24 12:13:41,809 - [INFO] - No message
+2023-03-24 12:13:44,834 - [INFO] - No message
+2023-03-24 12:13:47,857 - [INFO] - No message
+2023-03-24 12:13:50,862 - [INFO] - No message
+2023-03-24 12:13:53,871 - [INFO] - No message
+2023-03-24 12:13:56,885 - [INFO] - No message
+2023-03-24 12:13:59,895 - [INFO] - No message
+2023-03-24 12:14:02,905 - [INFO] - No message
+2023-03-24 12:14:05,917 - [INFO] - No message
+2023-03-24 12:14:08,925 - [INFO] - No message
+2023-03-24 12:14:11,936 - [INFO] - No message
+2023-03-24 12:14:14,946 - [INFO] - No message
+2023-03-24 12:14:17,958 - [INFO] - No message
+2023-03-24 12:14:20,965 - [INFO] - No message
+2023-03-24 12:14:23,972 - [INFO] - No message
+2023-03-24 12:14:26,981 - [INFO] - No message
+2023-03-24 12:14:29,994 - [INFO] - No message
+2023-03-24 12:14:33,020 - [INFO] - No message
+2023-03-24 12:14:36,030 - [INFO] - No message
+2023-03-24 12:14:39,038 - [INFO] - No message
+2023-03-24 12:14:42,041 - [INFO] - No message
+2023-03-24 12:14:45,051 - [INFO] - No message
+2023-03-24 12:14:48,063 - [INFO] - No message
+2023-03-24 12:14:51,074 - [INFO] - No message
+2023-03-24 12:14:54,082 - [INFO] - No message
+2023-03-24 12:14:57,089 - [INFO] - No message
+2023-03-24 12:15:00,102 - [INFO] - No message
+2023-03-24 12:15:03,119 - [INFO] - No message
+2023-03-24 12:15:06,133 - [INFO] - No message
+2023-03-24 12:15:09,142 - [INFO] - No message
+2023-03-24 12:15:12,146 - [INFO] - No message
+2023-03-24 12:15:15,153 - [INFO] - No message
+2023-03-24 12:15:18,166 - [INFO] - No message
+2023-03-24 12:15:21,183 - [INFO] - No message
+2023-03-24 12:15:24,196 - [INFO] - No message
+2023-03-24 12:15:27,221 - [INFO] - No message
+2023-03-24 12:15:30,230 - [INFO] - No message
+2023-03-24 12:15:33,246 - [INFO] - No message
+2023-03-24 12:15:36,254 - [INFO] - No message
+2023-03-24 12:15:39,261 - [INFO] - No message
+2023-03-24 12:15:42,269 - [INFO] - No message
+2023-03-24 12:15:45,280 - [INFO] - No message
+2023-03-24 12:15:48,287 - [INFO] - No message
+2023-03-24 12:15:51,302 - [INFO] - New Message: {'command': 'delete', 'project_id': 1, 'version': 1}
+2023-03-24 12:15:51,361 - [INFO] - Deleted model ingress for project 1
+2023-03-24 12:15:51,408 - [INFO] - Deleted model service for project 1
+2023-03-24 12:15:51,429 - [INFO] - Deleted model hpa for project 1
+2023-03-24 12:15:51,448 - [INFO] - Deleted model deployment for project 1
+2023-03-24 12:15:51,448 - [INFO] - Success: Deleted model stack for project 1
+2023-03-24 12:15:57,467 - [INFO] - New Message: {'command': 'deploy', 'environment': 'python', 'project_id': 1, 'strategy': 'direct', 'version': 1}
+2023-03-24 12:15:58,235 - [INFO] - [INFO] Successfully connected to minikube docker
+2023-03-24 12:17:07,618 - [INFO] - [INFO] Closed minikube docker
+2023-03-24 12:17:07,821 - [INFO] - Success: Created model stack for project 1
+2023-03-24 12:17:13,837 - [INFO] - No message
+2023-03-24 12:17:16,848 - [INFO] - No message
+2023-03-24 12:17:19,863 - [INFO] - No message
+2023-03-24 12:17:22,869 - [INFO] - No message
+2023-03-24 12:17:25,879 - [INFO] - No message
+2023-03-24 12:17:28,889 - [INFO] - No message
+2023-03-24 12:17:31,898 - [INFO] - No message
+2023-03-24 12:17:34,909 - [INFO] - No message
+2023-03-24 12:17:37,914 - [INFO] - No message
+2023-03-24 12:17:40,922 - [INFO] - No message
+2023-03-24 12:17:43,927 - [INFO] - No message
+2023-03-24 12:17:46,932 - [INFO] - No message
+2023-03-24 12:17:49,948 - [INFO] - No message
+2023-03-24 12:17:52,961 - [INFO] - No message
+2023-03-24 12:17:55,967 - [INFO] - No message
+2023-03-24 12:17:58,975 - [INFO] - No message
+2023-03-24 12:18:01,981 - [INFO] - No message
+2023-03-24 12:18:04,990 - [INFO] - No message
+2023-03-24 12:18:07,996 - [INFO] - No message
+2023-03-24 12:18:11,016 - [INFO] - No message
+2023-03-24 12:18:14,023 - [INFO] - No message
+2023-03-24 12:18:17,037 - [INFO] - No message
+2023-03-24 12:18:20,049 - [INFO] - No message
+2023-03-24 12:18:23,060 - [INFO] - No message
+2023-03-24 12:18:26,071 - [INFO] - No message
+2023-03-24 12:18:29,085 - [INFO] - No message
+2023-03-24 12:18:32,092 - [INFO] - New Message: {'command': 'delete', 'project_id': 1, 'version': 4}
+2023-03-24 12:18:32,133 - [INFO] - Deleted model ingress for project 1
+2023-03-24 12:18:32,172 - [INFO] - Deleted model service for project 1
+2023-03-24 12:18:32,198 - [INFO] - Deleted model hpa for project 1
+2023-03-24 12:18:32,217 - [INFO] - Deleted model deployment for project 1
+2023-03-24 12:18:32,217 - [INFO] - Success: Deleted model stack for project 1
+2023-03-24 12:18:38,235 - [INFO] - New Message: {'command': 'deploy', 'environment': 'python', 'project_id': 1, 'strategy': 'direct', 'version': 4}
+2023-03-24 12:18:39,004 - [INFO] - [INFO] Successfully connected to minikube docker
+2023-03-24 12:18:40,322 - [INFO] - [INFO] Closed minikube docker
+2023-03-24 12:18:40,467 - [INFO] - Success: Created model stack for project 1
+2023-03-24 12:18:46,484 - [INFO] - No message
+2023-03-24 12:18:49,494 - [INFO] - No message
+2023-03-24 12:18:52,505 - [INFO] - No message
+2023-03-24 12:18:55,517 - [INFO] - No message
+2023-03-24 12:18:58,533 - [INFO] - No message
+2023-03-24 12:19:01,544 - [INFO] - No message
+2023-03-24 12:19:04,554 - [INFO] - No message
+2023-03-24 12:19:07,562 - [INFO] - No message
+2023-03-24 12:19:10,587 - [INFO] - No message
+2023-03-24 12:19:13,614 - [INFO] - No message
+2023-03-24 12:19:16,624 - [INFO] - No message
+2023-03-24 12:19:19,636 - [INFO] - No message
+2023-03-24 12:19:22,657 - [INFO] - New Message: {'command': 'delete', 'project_id': 1, 'version': 2}
+2023-03-24 12:19:22,712 - [INFO] - Deleted model ingress for project 1
+2023-03-24 12:19:22,742 - [INFO] - Deleted model service for project 1
+2023-03-24 12:19:22,764 - [INFO] - Deleted model hpa for project 1
+2023-03-24 12:19:22,787 - [INFO] - Deleted model deployment for project 1
+2023-03-24 12:19:22,787 - [INFO] - Success: Deleted model stack for project 1
+2023-03-24 12:19:28,804 - [INFO] - New Message: {'command': 'deploy', 'environment': 'python', 'project_id': 1, 'strategy': 'direct', 'version': 2}
+2023-03-24 12:19:29,541 - [INFO] - [INFO] Successfully connected to minikube docker
+2023-03-24 12:19:30,393 - [INFO] - [INFO] Closed minikube docker
+2023-03-24 12:19:30,548 - [INFO] - Success: Created model stack for project 1
+2023-03-24 12:19:36,570 - [INFO] - No message
+2023-03-24 12:19:39,582 - [INFO] - No message
+2023-03-24 12:19:42,592 - [INFO] - No message
+2023-03-24 12:19:45,613 - [INFO] - No message
+2023-03-24 12:19:48,627 - [INFO] - No message
+2023-03-24 12:19:51,639 - [INFO] - No message
+2023-03-24 12:19:54,650 - [INFO] - No message
+2023-03-24 12:19:57,660 - [INFO] - No message
+2023-03-24 12:20:00,668 - [INFO] - No message
+2023-03-24 12:20:03,679 - [INFO] - No message
+2023-03-24 12:20:06,709 - [INFO] - No message
+2023-03-24 12:20:09,717 - [INFO] - No message
+2023-03-24 12:20:12,722 - [INFO] - No message
+2023-03-24 12:20:13,712 - [INFO] - Closing channel (0): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fb0a81def10> params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-03-24 12:20:13,716 - [INFO] - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fb0a81def10> params=<URLParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-03-24 12:20:13,716 - [INFO] - [INFO] Closed RabbitMQ

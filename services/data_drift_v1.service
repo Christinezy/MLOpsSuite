@@ -1,0 +1,15 @@
+[Unit]
+Description=model_deployer
+After=multi-user.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+Environment="ENV=DEV"
+WorkingDirectory=/home/ubuntu/BT4301_Project/services
+ExecStart=/home/ubuntu/BT4301_Project/services/venv/bin/python3 /home/ubuntu/BT4301_Project/services/data_drift.py
+
+[Install]
+WantedBy=multi-user.target

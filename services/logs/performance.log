@@ -1,0 +1,12 @@
+2023-03-25 22:40:21,452 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-25 22:40:21,757 - [INFO] - [INFO] Success: Obtained performance metrics - [(1, 'green')]
+2023-03-25 22:40:21,757 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-25 22:40:31,760 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-25 22:40:32,041 - [INFO] - [INFO] Success: Obtained performance metrics - [(1, 'green')]
+2023-03-25 22:40:32,041 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-25 22:40:42,047 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-25 22:40:42,382 - [INFO] - [INFO] Success: Obtained performance metrics - [(1, 'green')]
+2023-03-25 22:40:42,382 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-25 22:40:52,392 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-25 22:40:52,568 - [ERROR] - Error: Failed to get performance metrics
+2023-03-25 22:40:52,568 - [INFO] - [INFO] Closed session PostgreSQL

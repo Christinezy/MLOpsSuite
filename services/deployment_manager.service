@@ -1,0 +1,15 @@
+[Unit]
+Description=deployment_manager
+After=multi-user.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+Environment="ENV=DEV"
+WorkingDirectory=/home/vboxuser/BT4301_Project/services
+ExecStart=/home/vboxuser/BT4301_Project/services/venv/bin/python3 /home/vboxuser/BT4301_Project/services/deployment_manager.py
+
+[Install]
+WantedBy=multi-user.target

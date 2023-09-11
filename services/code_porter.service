@@ -1,0 +1,16 @@
+[Unit]
+Description=code_porter
+After=multi-user.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+Environment="ENV=DEV"
+Environment="DYLD_LIBRARY_PATH=/home/vboxuser/BT4301_Project/services/venv/lib/python3.8/site-packages/clang/native"
+WorkingDirectory=/home/vboxuser/BT4301_Project/services
+ExecStart=/home/vboxuser/BT4301_Project/services/venv/bin/python3 /home/vboxuser/BT4301_Project/services/code_porter.py
+
+[Install]
+WantedBy=multi-user.target

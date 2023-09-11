@@ -1,0 +1,33 @@
+2023-03-24 12:19:16,604 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:16,688 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:16,688 - [INFO] - Found 1 projects. Performing data drift test(s)...
+2023-03-24 12:19:16,688 - [INFO] - Performing test for project 1 version 1
+2023-03-24 12:19:16,837 - [INFO] - [INFO] Success: Obtained metrics for project 1 version 1
+2023-03-24 12:19:16,837 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:16,842 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:26,846 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:26,857 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:26,858 - [INFO] - Found 1 projects. Performing data drift test(s)...
+2023-03-24 12:19:26,858 - [INFO] - Performing test for project 1 version 1
+2023-03-24 12:19:26,921 - [ERROR] - Error: Response data error for project 1 version 1
+2023-03-24 12:19:36,928 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:36,951 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:36,951 - [INFO] - Found 1 projects. Performing data drift test(s)...
+2023-03-24 12:19:36,951 - [INFO] - Performing test for project 1 version 1
+2023-03-24 12:19:37,115 - [INFO] - [INFO] Success: Obtained metrics for project 1 version 1
+2023-03-24 12:19:37,116 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:37,122 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:47,123 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:47,136 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:47,136 - [INFO] - Found 1 projects. Performing data drift test(s)...
+2023-03-24 12:19:47,136 - [INFO] - Performing test for project 1 version 1
+2023-03-24 12:19:47,309 - [INFO] - [INFO] Success: Obtained metrics for project 1 version 1
+2023-03-24 12:19:47,309 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:47,312 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:57,318 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:57,337 - [INFO] - [INFO] Closed session PostgreSQL
+2023-03-24 12:19:57,338 - [INFO] - Found 1 projects. Performing data drift test(s)...
+2023-03-24 12:19:57,338 - [INFO] - Performing test for project 1 version 1
+2023-03-24 12:19:57,523 - [INFO] - [INFO] Success: Obtained metrics for project 1 version 1
+2023-03-24 12:19:57,523 - [INFO] - [INFO] Successfully connected to PostgreSQL
+2023-03-24 12:19:57,526 - [INFO] - [INFO] Closed session PostgreSQL

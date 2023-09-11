@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlops-project1-blue
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mlops-project1
+      version: "1.0"
+  template:
+    metadata:
+      labels:
+        app: mlops-project1
+        version: "1.0"
+    spec:
+      containers:
+      - name: mlops-project1-container
+        image: mlops_project1:latest # to be updated
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+        env:
+          - name: ROOT_PATH
+            value: /project1
+

@@ -1,0 +1,38 @@
+FROM mlops_base:latest
+
+# WORKDIR /app
+
+# # COPY ./requirements.txt /usr/src/app
+
+# # ENV ROOT_PATH=${ROOT_PATH}
+# # # ENV x=$x
+
+# # RUN echo "The env variable ROOT_PATH is ${ROOT_PATH}"
+
+ADD ./requirements.txt .
+
+ADD ./model ./model
+# ADD server.py server.py
+ADD ./model.py ./model.py
+# ADD ./main.py ./main.py
+# ADD ./start.sh ./start.sh
+
+# RUN pwd
+
+# RUN ls
+
+RUN pip install -r requirements.txt
+
+
+
+EXPOSE 8000
+
+# CMD [ "gunicorn", "--bind", "0.0.0.0:5000", "server:app" ]
+# CMD ["/bin/sh", "./start.sh"]
+
+ENTRYPOINT ["gunicorn",  "-w 4", "-k uvicorn.workers.UvicornWorker", \
+"-b 0.0.0.0:8000", "main:app"]
+
+# CMD ["uvicorn",  "--root-path", "/project1", "main:app"]
+# CMD ["uvicorn", "main:app", "--root-path", ROOT_PATH]
+# CMD ["uvicorn", "--bind 0.0.0.0:8000", "main:app"]

@@ -1,0 +1,894 @@
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_1.pth ...
+INFO:root:Reloading decoders from ./models/model_1.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_1.pth ...
+INFO:root:Reloading decoders from ./models/model_1.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_1.pth ...
+INFO:root:Reloading decoders from ./models/model_1.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_1.pth ...
+INFO:root:Reloading decoders from ./models/model_1.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1
+INFO:root:Reloading encoder from ./models/model_2.pth ...
+INFO:root:Reloading decoders from ./models/model_2.pth ...
+DEBUG:root:Encoder: TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)
+DEBUG:root:Decoder: [TransformerModel(
+  (position_embeddings): Embedding(1024, 1024)
+  (lang_embeddings): Embedding(3, 1024)
+  (embeddings): Embedding(63961, 1024, padding_idx=2)
+  (layer_norm_emb): LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  (attentions): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm1): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (ffns): ModuleList(
+    (0-5): 6 x TransformerFFN(
+      (lin1): Linear(in_features=1024, out_features=4096, bias=True)
+      (lin2): Linear(in_features=4096, out_features=1024, bias=True)
+    )
+  )
+  (layer_norm2): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (layer_norm15): ModuleList(
+    (0-5): 6 x LayerNorm((1024,), eps=1e-12, elementwise_affine=True)
+  )
+  (encoder_attn): ModuleList(
+    (0-5): 6 x MultiHeadAttention(
+      (q_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (k_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (v_lin): Linear(in_features=1024, out_features=1024, bias=True)
+      (out_lin): Linear(in_features=1024, out_features=1024, bias=True)
+    )
+  )
+  (pred_layer): PredLayer(
+    (proj): Linear(in_features=1024, out_features=63961, bias=True)
+  )
+)]
+INFO:root:Number of parameters (encoder): 142191065
+INFO:root:Number of parameters (decoders): 167393753
+INFO:root:Number of decoders: 1

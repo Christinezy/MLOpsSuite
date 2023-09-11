@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blue-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp
+      version: "1.0"
+  template:
+    metadata:
+      labels:
+        app: myapp
+        version: "1.0"
+    spec:
+      containers:
+      - name: myapp
+        image: myapp:blue # to be updated
+        ports:
+        - containerPort: 80
+

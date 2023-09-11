@@ -1,0 +1,47 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: project-1-ingress-blue
+  # namespace: mlops
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/enable-cors: "true"
+    nginx.ingress.kubernetes.io/cors-allow-origin: "*"
+    nginx.ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, OPTIONS, DELETE"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    # nginx.ingress.kubernetes.io/add-base-url: "true"
+
+    # nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+    # nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
+    # nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  # ingressClassName: nginx
+  rules:
+  - http:
+      paths:
+      - path: /project1(/|$)(.*)
+      # - path: /project1
+        pathType: Prefix
+        backend:
+          service:
+            name: mlops-project-1-service-blue # to tally with service name
+            port:
+              number: 8050
+    # host: project1.mlops.com
+
+  # - host: project1.mlops.io
+  #   http:
+  #     paths:
+  #     - path: /redoc
+  #       pathType: Prefix
+  #       backend:
+  #         service:
+  #           name: mlops-project1-service # to tally with service name
+  #           port:
+  #             number: 8050
+  
+    # - http:
+    #   paths:
+    #   - backend:
+    #       serviceName: mlops-project1-service
+    #       servicePort: 8050

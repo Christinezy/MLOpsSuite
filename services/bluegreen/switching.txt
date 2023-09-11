@@ -1,0 +1,22 @@
+# to see current deployments & services in Kubernetes
+kubectl get deployments
+kubectl get services
+kubectl get services -A # (for Ingress-NGINX)
+
+# for blue deployment
+kubectl apply -f deploy_blue.yml
+kubectl apply -f service_blue.yml
+
+# deploying Ingress-NGINX controller 
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.6.4/deploy/static/provider/baremetal/deploy.yaml
+kubectl apply -f ingress_rules.yml
+
+# for green deployment 
+kubectl apply -f deploy_green.yml
+kubectl apply -f service_green.yml
+
+# to rollback deployment: apply the other service yaml file
+
+# to stop current deployments / services
+kubectl delete deployments <deployment name>
+kubectl delete services <service name>

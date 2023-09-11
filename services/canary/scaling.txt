@@ -1,0 +1,2 @@
+# for scaling between stable and canary deployment
+kubectl scale deployment <insert deployment name> --replicas = <insert number>
